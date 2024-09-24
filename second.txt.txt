@@ -1,6 +1,6 @@
  git init
  git remote add origin https://github.com/itachi644/react-practice-1/blob/master/MYSELF.TXT.txt
  git add .
- git commit -m "suiii"
+ git commit -m "we do the last project lampung"
  git push -u origin master
  

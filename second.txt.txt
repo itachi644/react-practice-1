@@ -1,0 +1,5 @@
+git init
+git remote add origin https://github.com/itachi644/react-practice-1/commit/41cdbf7ea6b1e91fffbad17aa5f70942fbd06e8f
+git add .
+git commit -m "initial commit"
+git push -u origin master

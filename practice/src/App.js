@@ -5,7 +5,7 @@ import Profile from './components/Profile';
 function App() {
   const profiles = [{
     name:"huzaif",
-    img:"https://img.etimg.com/thumb/width-1200,height-900,imgsize-101990,resizemode-75,msid-93641036/industry/renewables/gas-powered-muscle-cars-drive-into-the-sunset-turn-electric.jpg",
+    img:"https://avatars.githubusercontent.com/u/182518533?v=4",
     about:"i'm a student"
  
   },
@@ -20,13 +20,15 @@ function App() {
       about:"i'm a student"
   }];
   return (
-    <div>
-      <h1>profile</h1>{
-          profiles.map((profile, key) => {
-          return <Profile key={key} name={profile.name} imgUrl={profile.img} about={profile.about}/>    
+    <div className="container">
+      <div className="row">
+      <h1>profile</h1>
+      {
+        profiles.map((profile, key) => {
+          return <Profile key={key} profile={profile} />    
         })
       } 
-      
+    </div>
     </div>
   );
 }
